@@ -1,0 +1,272 @@
+/* Bootstrap Corrections */
+.card-deck {
+  margin-right: -10px !important;
+}
+/* Forms */
+.form-control:focus, .form-select:focus {
+  border-color : #ffe680; /* ATU Yellow */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 230, 128, 1);
+}
+
+/* Buttons */
+
+.btn-primary {
+  background-color: #00533e; /* ATU Green */
+  border-color: #004d39; /* Slightly darker ATU Green */
+}
+
+.btn-primary:hover {
+  background-color: #004d39;
+  border-color: #003326; /* Significantly darker ATU Green */
+}
+
+.btn-primary:active, .btn-primary:focus {
+  background-color: #003326 !important;
+  border-color: #001a13 !important; /* Almost black dark ATU Green */
+  box-shadow: 0 0 0 .2rem #66978B !important; /* Lighter outline for ATU Green */
+}
+
+.btn-primary:disabled {
+  background-color: #547F72 !important;
+  border-color: #00533e !important;
+}
+
+.btn-outline-primary {
+  color: #00533e !important;
+  border-color: #00533e !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  border-color: #00533e !important;
+  background-color: #00533e !important;
+}
+
+.btn-outline-primary:active, .btn-outline-primary:focus {
+  color: #fff !important;
+  border-color: #00533e !important;
+  background-color: #00533e !important;
+  box-shadow: 0 0 0 .2rem #66978B !important;
+}
+
+/* Tables */
+
+.table-primary, .table-primary>td, .table-primary>th {
+  background-color: #cde1d4 !important; /* Light green ATU color for background on dark font */
+  border-color: #00533e33 !important; /* 33 at end specifies opacity */
+  --bs-table-bg: none !important;
+  --bs-table-striped-bg: none !important;
+  --bs-table-active-bg: none !important;
+}
+
+.table-hover .table-primary:hover > td, .table-hover .table-primary:hover > th {
+  background-color: #b5d3be !important; /* Slightly darker light green ATU color for border */
+  border-color: #00533e4d !important; /* 4d at end specifies opacity */
+  --bs-table-hover-bg: none !important;
+}
+
+.table-primary tbody + tbody, .table-primary td, .table-primary th, .table-primary thead th {
+  background-color: #cde1d4 !important; /* Light green ATU color for background on dark font */
+  border-color: #00533e33 !important;
+  --bs-table-bg: none !important;
+  --bs-table-striped-bg: none !important;
+  --bs-table-active-bg: none !important;  
+} 
+
+
+/* Borders */
+
+.border-primary {
+  border-color: #00533e !important;
+}
+
+/* Badges */
+
+.badge-primary {
+  background-color: #00533e;
+}
+
+/* Alerts */
+
+.alert-primary {
+  color: #00533e;
+  background-color: #f2f2f2; /* Nice light grey background for ATU Green font */
+  border-color: #4c8677; /* Slightly darker color than the ligher outline for ATU Green */
+}
+
+/* Text */
+
+.text-primary {
+  color: #00533e !important;
+}
+
+/* Backgrounds */
+
+.bg-primary {
+  background-color: #00533e !important;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb-item>a {
+  color: #00533e !important;
+}
+
+.breadcrumb-item>a:hover {
+  color: #003326 !important;
+}
+
+/* Pagination */
+
+.page-item.active .page-link {
+  background-color: #00533e;
+  border-color: #00533e;
+}
+
+.page-link {
+  color: #00533e;
+}
+
+/* Navs */
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  border-color: #00533e;
+}
+
+.nav-tabs>li>a {
+  color: #00533e;
+}
+
+.nav-tabs>li.nav-item>a.nav-link.active, .nav-tabs>li.nav-item>a:focus.nav-link.active, .nav-tabs>li.nav-item>a:hover.nav-link.active {
+  color: #fff;
+  background-color: #00533e;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #00533e;
+}
+.dropdown-menu>li>a {
+  color: #00533e;
+}
+
+.dropdown-item.active {
+  background-color: #00533e;
+}
+
+/* Tooltips */
+
+.tooltip-inner {
+  background-color: #00533e !important;
+  color: #fff;
+  opacity: 1;
+}
+
+.tooltip.in { opacity: 1 !important; }
+
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #00533e !important;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+  border-left-color: #00533e !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #00533e !important;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: #00533e !important;
+}
+
+/* New Bootstrap 5 rules */
+.tooltip.bs-tooltip-bottom .tooltip-arrow:before {
+  border-bottom-color: #00533e !important;
+}
+
+.tooltip.bs-tooltip-left .tooltip-arrow:before {
+  border-left-color: #00533e !important;
+}
+
+.tooltip.bs-tooltip-auto[data-popper-placement="bottom"] .tooltip-arrow:before {
+  border-bottom-color: #00533e !important;
+}
+.tooltip.bs-tooltip-auto[data-popper-placement="right"] .tooltip-arrow:before {
+  border-right-color: #00533e !important;
+}
+.tooltip.bs-tooltip-auto[data-popper-placement="left"] .tooltip-arrow:before {
+  border-left-color: #00533e !important;
+}
+.tooltip.bs-tooltip-auto[data-popper-placement="top"] .tooltip-arrow:before {
+  border-top-color: #00533e !important;
+}
+
+.atu-tooltip-max-width > .tooltip-inner {
+  min-width: max-content;
+}
+
+.alert-info {
+  color: #084450 !important;
+  background-color: #d1ecf1  !important;
+  border-color: #bee5eb  !important;
+}
+
+.btn-info {
+  color: #fff !important;
+  background-color: #0F7A8C  !important;
+  border-color: #0F7A8C  !important;
+}
+
+.atu-bg-danger {
+  background-color: #f8d7da !important;
+}
+
+legend.form-label {
+  font-size: inherit !important; /* Matches form labels */
+  font-weight: normal !important;
+  display: block; /* Ensures proper spacing */
+} 
+
+.btn-link {
+  color: #0056b3 !important;
+}
+
+.bg-light a {
+  color: #0056b3 !important;
+}
+
+/* AutoComplete Correction when Using Bootstrap */
+div.awesomplete { 
+  flex: 1 1 auto; 
+}
+
+table.dataTable.table-bordered {
+  border-collapse: collapse !important;
+}
+
+@media (max-width: 768px) {
+  .stacked-table thead {
+    display: none;
+  }
+
+  .stacked-table, 
+  .stacked-table tbody, 
+  .stacked-table tr, 
+  .stacked-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .stacked-table tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .stacked-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+} 
